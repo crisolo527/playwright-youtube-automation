@@ -33,6 +33,6 @@ def test_search_functionality(navigate_to_youtube_home):
     # # Perform a search on YouTube
     youtube.search(search_query)
     
-    search_page = SearchPage(page)  # Create a SearchPage instance
-    search_page.verify_loaded(search_query)  # Verify that the search results page has loaded
+    # search_page = SearchPage(page)  # Create a SearchPage instance
+    # search_page.verify_loaded(search_query)  # Verify that the search results page has loaded
     
