@@ -29,7 +29,7 @@ python -m venv .venv
 .\.venv\Scripts\activate
 ```
 ```bash
-pip install playwright pytest pytest-playwright
+pip install -r requirements.txt
 ```
 
 ### 3. Running Tests
